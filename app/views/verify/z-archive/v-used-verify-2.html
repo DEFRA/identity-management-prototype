@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--  -->
+
+<br></br>
+<style>
+div.blue {width:700px; height:300px; background:#005EA5; padding: 30px 30px 30px 30px;}
+h1   {color: white;}
+label {color: white;}
+form {align=right;}
+</style>
+
+
+
+<main id="content" role="main">
+<div class="blue">
+
+
+<img align='left' alt="GOV.UK Verify" src="../public/images/govuk-verify.gif" height="100" width="150" style="padding:40px;">
+
+
+
+<form>
+<div class="form-group">
+  <h1 class="heading-large">
+    Sign in with GOV.UK Verify
+  </h1>
+
+
+
+<fieldset align= 'right'>
+    <div class="multiple-choice">
+      <input id="radio-1" type="radio" name="radio-group" value="Northern Ireland">
+      <label for="radio-1">This is my first time using Verify</label>
+    </div>
+    <div class="multiple-choice">
+      <input id="radio-2" type="radio" name="radio-group" value="Isle of Man or the Channel Islands">
+      <label for="radio-2">I've used Verify before</label>
+    </div>
+</fieldset>
+
+</div>
+</form>
+
+
+</div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Confirmation page example
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <div class="govuk-box-highlight">
+        <h1 class="heading-xlarge">
+          You've created a government account
+        </h1>
+        <p class="font-large">
+          Your user ID is:<br>
+          <strong class="bold">24 49 21 79 58 79</strong>
+        </p>
+      </div>
+
+      <div class="panel panel-border-wide">
+        <p>
+      Make a note of your user ID. You'll need this to sign in to your government account.
+        </p>
+      </div>
+<p>
+<img src="public/images/print.gif" alt="print icon">&nbsp;&nbsp;&nbsp;<a href="">Print this page</a>
+
+      <h2 class="heading-medium">What happens next</h2>
+        <p>We've sent a temporary password to your email address. You'll need to use this to sign in for the first time.</p>
+
+
+        <div class="form-group">
+            <a href="email-sent.html"><input class="button" type="submit" value="Continue"></a>
+        </div>
+
+
+
+    </div>
+  </div>
+</p>
+
+
+</main>
+
+{% endblock %}

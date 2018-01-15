@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <style>
+#header {
+    width: 100%;
+    background-color: white;
+    height: 30px;
+}
+
+#container {
+    width: 100%;
+    background-color: white;
+}
+#first {
+    width: 99%;
+    float: left;
+    background-color: white;
+}
+#second {
+    width: 1%;
+    float: left;
+    background-color: white;
+}
+#clear {
+    clear: both;
+}
+
+      </style>
+
+<br></br>
+
+<h1 class="heading-large">What is your company name?</h1>
+
+
+
+<div id="header"></div>
+<div id="container">
+
+<label class="form-label" for="full-name-f1">Search by entering your company name or registration number</label>
+
+<div id="first">
+<form>
+<input class="form-control" id="full-name-f1" type="text" name="full-name-f1" value="blue">&nbsp;&nbsp;<input class="button" type="submit" value="Search">
+</form>
+</div>
+
+<div id="second">
+</div>
+
+<br></br>
+
+<h4 class="heading-small">Company House search results</h4>
+
+<span class="form-hint">Select your organisation from the options below.</span>
+
+
+<div class="panel panel-border-wide">
+  <p>
+    <a href="v-authority.html">BLUE AND GREEN ACCOUNTANTS</a> <br>
+    10 Fortis Road, Port Talbot, SA20 1PZ
+      </p><p>
+    <a href="v-authority.html">BLUE SALT CONSMETICS</a> <br>
+    Three Trees Place, Hanley, ST4 6AF
+      </p><p>
+    <a href="v-authority.html">BLUE SEASHORE TRAVEL AGENTS</a> <br>
+    94 Wall Court, Whitworth, Rochdale, United Kingdom, OL10 5UL
+  </p>
+</div>
+
+
+<br>
+Or enter your company details manually
+<br></br>
+Company name
+<form>
+<input class="form-control" id="full-name-f1" type="text" name="full-name-f1">
+</form>
+<br>
+<div id="clear">
+<a href="v-authority.html"><input class="button" type="submit" value="continue"></a>
+
+</div>
+
+</main>
+
+{% endblock %}

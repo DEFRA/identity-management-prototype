@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+<style>
+#left{float:left;width:100px;}
+#right{float:right;width:180px;}
+#bottom {clear: both;}
+</style>
+
+
+      <a class="link-back" href="start-page">Back</a>
+
+<h2 class="heading-large">Choose a certified company to verify your identity</h2>
+
+<p class="lede">
+  You don’t have to be an existing customer with a company.
+</p>
+<p>
+  They ask you to provide personal information and then check it's correct using the new, secure systems they built .
+  <br><br>7 companies can verify you now:
+  <br><br><a href="">Why there’s a choice of companies.</a></p>
+</p>
+<br>
+
+<div id="left">
+<img src="../public/images/post-office.png" alt="print icon" height="70" width="150">
+</div>
+
+<div id="right">
+<a href="code"><input type="submit" class="button" value="Choose Post Office"></a>
+</div>
+
+<br></br><br>
+<div>
+<p class="font-xsmall"><a href="">About Post Office</a></p>
+</div>
+<hr>
+
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

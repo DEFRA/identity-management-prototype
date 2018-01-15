@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <a class="link-back" href="/url/of/previous/page">Back</a>
+
+      <h1 class="heading-large">What is your company registration number?
+      </h1>
+          <p>
+<span class="form-hint">
+This is the number issued by Companies House when your limited company was incorporated.
+</span>
+
+  <input class="form-control" id="full-name-f1" type="text" name="full-name-f1">
+</p>
+
+        <div class="form-group">
+          <a href="v-permitcode.html"><input class="button" type="submit" value="Continue"></a>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+
+<a class="link-back" href="v-company1.html">Back</a>
+  <br>
+      <h2 class="heading-large">Do you have the authority to view permits
+on behalf of your organisation?
+</h2>
+        <p>Select all that apply</p>
+
+
+        <form>
+          <fieldset>
+
+            <div class="multiple-choice">
+              <input id="waste-type-1" name="" type="checkbox" value="">
+              <label for="waste-type-1">Yes, I am a Director of the company</label>
+            </div>
+            <div class="multiple-choice">
+              <input id="waste-type-1" name="" type="checkbox" value="">
+              <label for="waste-type-2">Yes, I am the company Secretary</label>
+            </div>
+            <div class="multiple-choice">
+              <input id="waste-type-1" name="" type="checkbox" value="">
+              <label for="waste-type-3">Yes, I work for the company</label>
+            </div>
+
+          </fieldset>
+        </form>
+
+
+<br>
+
+        <div class="form-group">
+        <a href="v-used-verify.html"><input class="button" type="submit" value="Continue"></a>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

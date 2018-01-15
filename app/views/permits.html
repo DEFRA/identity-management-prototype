@@ -1,0 +1,93 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Start page example
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="https://www.gov.uk">Home</a></li>
+      <li><a href="">Your permits</a></li>
+      <li></li>
+    </ol>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+
+
+  <h1 class="heading-large">Your permits</h1>
+
+
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Permit number</th>
+        <th class="numeric" scope="col">Name</th>
+        <th class="numeric" scope="col"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th scope="row">115566</th>
+        <td class="numeric">xxxxxxx</td>
+        <td class="numeric"> <a href="permit.html">View</a></td>
+      </tr>
+      <tr>
+        <th scope="row">115566</th>
+        <td class="numeric">xxxxxxx</td>
+        <td class="numeric"> <a href="">View</a></td>
+      </tr>
+      <tr>
+        <th scope="row">115566</th>
+        <td class="numeric">xxxxxxx</td>
+        <td class="numeric"> <a href="">View</a></td>
+      </tr>
+    </tbody>
+
+
+  </table>
+
+
+
+
+
+
+
+
+    </div>
+    <!--
+    <div class="column-third">
+
+      <aside class="govuk-related-items" role="complementary">
+        <h2 class="heading-medium" id="subsection-title">Subsection</h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="font-xsmall">
+            <li><a href="#">Related link</a></li>
+            <li><a href="#">Related link</a></li>
+            <li><a href="#" class="bold-xsmall">More <span class="visuallyhidden">in Subsection</span></a></li>
+          </ul>
+        </nav>
+      </aside>
+
+    </div>
+  -->
+  </div>
+
+</main>
+
+{% endblock %}

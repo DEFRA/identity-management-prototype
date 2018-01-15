@@ -1,0 +1,93 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <style>
+      #header {
+      width: 100%;
+      background-color: white;
+      height: 30px;
+      }
+
+      #container {
+      width: 100%;
+      background-color: white;
+      }
+      #first {
+      width: 99%;
+      float: left;
+      float: middle;
+      background-color: white;
+      }
+      #second {
+      width: 1%;
+      float: left;
+      background-color: white;
+      }
+      #clear {
+      clear: both;
+      }
+
+      </style>
+
+
+
+
+<a class="link-back" href="v-five.html">Back</a>
+
+<h2 class="heading-large">Choose a certified company to verify your identity</h2>
+
+<p class="lede">
+  You don’t have to be an existing customer with a company.
+</p>
+<p>
+  They ask you to provide personal information and then check it's correct using the new, secure systems they built .
+  <br><br>3 companies can verify you now:
+  <br><br><a href="">Why there’s a choice of companies.</a>
+</p>
+<br>
+
+
+
+<div id="first">
+<img src="../public/images/post-office.png" alt="print icon" height="70" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="button" href="v-to-postoffice.html" role="button">Choose Post Office</a>
+</div>
+<div>
+<p class="font-xsmall"><a href="">About Post Office</a></p>
+</div>
+<hr>
+<div id="first">
+<img src="../public/images/digidentity.png" alt="print icon" height="70" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="button" role="button">Choose Digidentity</a>
+</div>
+<div>
+<p class="font-xsmall"><a href="">About Digidentity</a></p>
+</div>
+<hr>
+<div id="first">
+<img src="../public/images/barclays.png" alt="print icon" height="70" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="button" role="button">Choose Barclays</a>
+</div>
+<div>
+<p class="font-xsmall"><a href="">About Barclays</a></p>
+</div>
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
