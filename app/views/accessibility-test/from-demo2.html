@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<div class="site-wrapper">
+    <main id="content" role="main">
+
+<div class="breadcrumbs">
+    <ol>
+        <li><a href="http://defra-poc-demo.azurewebsites.net/Home/Index">Home</a></li>
+        <li><a href="">IdM Platform</a></li>
+        <li></li>
+    </ol>
+</div>
+<div class=" grid-row">
+    <div class="column-two-thirds">
+        <div id="api" data-name="SelfAsserted" style="" class="select-box">
+    <div class="intro" style="display: none;">
+      <p>Please provide the following details.</p>
+    </div>
+    <div id="attributeVerification" role="form">
+      <div class="error pageLevel error-summary" id="passwordEntryMismatch" style="display: none;" aria-hidden="true"><h2 class="heading-medium error-summary-heading">The password entry fields do not match. Please enter the same password in both fields and try again.</h2></div>
+      <div class="error pageLevel error-summary" id="requiredFieldMissing" style="display: block;" aria-hidden="false" role="alert" aria-live="polite" tabindex="1"><h2 class="heading-medium error-summary-heading">A required field is missing. Please fill out all required fields and try again.</h2></div>
+      <div class="error pageLevel error-summary" id="fieldIncorrect" style="display: none;" aria-hidden="true"><h2 class="heading-medium error-summary-heading">One or more fields are filled out incorrectly. Please check your entries and try again.</h2></div>
+      <div class="error pageLevel error-summary" id="claimVerificationServerError" style="display: none;" aria-hidden="true"><h2 class="heading-medium error-summary-heading"></h2></div>
+      <div class="attr" id="attributeList">
+        <ul>
+          <li>
+            <div class="attrEntry select-box validate form-group-error">
+
+              <label for="givenName" class="form-label">First Name</label>
+
+              <div class="error itemLevel show" aria-hidden="true"><p class="error-message">This information is required.</p></div>
+
+              <input id="givenName" class="textInput form-control form-control-error" type="text" placeholder="First Name" title="Your given name (also known as first name)" required="" aria-required="true" aria-label="This information is required., First Name">
+
+
+
+
+
+
+
+
+              <a href="javascript:void(0)" data-help="Your given name (also known as first name)" class="helpLink tiny" style="display: none;">What is this?</a>
+            </div>
+          </li>
+          <li>
+            <div class="attrEntry select-box validate form-group-error">
+
+              <label for="surname" class="form-label">Last Name<div class="panel panel-border-wide"><p>Also known as family name</p></div></label>
+
+              <div class="error itemLevel show" aria-hidden="true"><p class="error-message">This information is required.</p></div>
+
+              <input id="surname" class="textInput form-control form-control-error" type="text" placeholder="Last Name" title="Your surname (also known as family name)" required="" aria-required="true" aria-label="This information is required., Last Name">
+
+
+
+
+
+
+
+
+              <a href="javascript:void(0)" data-help="Your surname (also known as family name)" class="helpLink tiny" style="display: none;">What is this?</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="buttons">
+        <button id="continue" aria-label="Continue" class="button">Continue</button>
+        <button id="cancel" aria-label="Cancel" formnovalidate="" style="display: none;">Cancel</button>
+      </div>
+
+      <div class="verifying-modal">
+        <div id="verifying_blurb" style="display: none;"></div>
+      </div>
+    </div>
+  </div>
+    </div>
+</div>
+
+    </main>
+</div>
+
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <a class="link-back" href="register2.html">Back</a>
+
+      <h1 class="heading-large">
+        Email confirmation
+      </h1>
+  <p>We need to confirm that this is your email address.</p>
+
+      <p>We have sent an email to sally.jones@linked.com, containing a code for you to enter here.</p>
+
+
+
+      <label class="form-label" for="ni-number">
+      Enter code
+
+      </label>
+      <input class="form-control" id="ni-number" type="text" name="ni-number">
+<br></br>
+If you don't have access to your email now, please <a href="register1">register later.</a>
+<br></br>
+
+      <input class="button" type="submit" value="Continue">
+
+
+      <br></br>  <br></br>
+<a href="email2" target="_blank">View email</a>
+
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
