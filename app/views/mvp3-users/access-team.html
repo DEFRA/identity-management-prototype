@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Blank page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+<br>
+
+
+<form>
+  <fieldset>
+
+    <legend>
+      <h2 class="heading-large">Give team members access to this dossier</h2>
+    </legend>
+    <hr>
+    <h3 class="heading-medium">Dossier 1, Ref: 15363</h3>
+    <hr>
+
+
+    Find a team member<br>
+    <img src="../../public/images/search.jpg"  height="52" width="600" alt="">
+    <br></br>
+    <a href="">Select/deselect all</a>
+    <br></br>
+    <div class="multiple-choice">
+      <input id="waste-type-1" name="" type="checkbox" value="">
+      <label for="waste-type-1">Olivia Singh</label>
+    </div>
+    <div class="multiple-choice">
+      <input id="waste-type-2" name="" type="checkbox" value="">
+      <label for="waste-type-2">Stephen North</label>
+    </div>
+
+
+  </fieldset>
+</form>
+<br>
+<div class="form-group">
+    <a href="access-dos.html"><input class="button" type="submit" value="Give access"></a>
+</div>
+
+
+
+</main>
+
+{% endblock %}
