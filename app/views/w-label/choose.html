@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <style>
+      #header {
+      width: 100%;
+      background-color: white;
+      height: 30px;
+      }
+
+      #container {
+      width: 100%;
+      background-color: white;
+      }
+      #first {
+      width: 99%;
+      float: left;
+      float: middle;
+      background-color: white;
+      }
+      #second {
+      width: 1%;
+      float: left;
+      background-color: white;
+      }
+      #clear {
+      clear: both;
+      }
+
+      </style>
+
+
+
+
+<a class="link-back" href="int-start2.html">Back</a>
+
+<h2 class="heading-large">Sign in or create an account</h2>
+
+
+
+
+<br>
+<div id="first">
+Used this service before?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+New to this service?
+<br></br>
+<a class="button" href="signin-alone.html" role="button">Sign in</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+<a class="button" href="your-details" role="button">Create an account</a>
+</div>
+
+
+
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

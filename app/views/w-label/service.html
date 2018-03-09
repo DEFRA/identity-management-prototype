@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Start page example
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="">Defra international account</a></li>
+
+    </ol>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+        {% if serviceName %} {{ serviceName }} {% endif %}
+      </h1>
+<h3 class="heading-large">You are now signed into the service</h1>
+
+
+
+
+
+
+
+
+    </div>
+    <div class="column-third">
+
+
+
+    </div>
+  </div>
+
+</main>
+
+{% endblock %}
