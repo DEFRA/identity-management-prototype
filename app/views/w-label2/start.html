@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Start page example
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="../index.html"></a></li>
+      <li><a href=""></a></li>
+
+    </ol>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+        {% if serviceName %} {{ serviceName }} {% endif %}
+      </h1>
+<h1 class="heading-xlarge"></h1>
+      <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="signin-fed3.html">Version</a>&nbsp;&nbsp;
+<a href="signin-fed2.html">Version</a>&nbsp;&nbsp;
+<a href="signin-fed1.html">Version</a>&nbsp;&nbsp;
+
+
+</p>
+
+
+<br></br><br></br><br></br>
+
+
+
+    </div>
+
+  </div>
+
+</main>
+
+{% endblock %}
