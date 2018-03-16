@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+
+
+        <br></br>
+
+      <h1 class="heading-large">Sign in
+      </h1>
+
+
+
+Enter your Government Gateway credentials to sign in. You received these when you created your account.
+<br/><br/>
+        <label class="form-label" for="ni-number">
+          User ID
+        </label>
+        <input class="form-control" id="ni-number" type="text" name="ni-number"><br/><br/>
+        <label class="form-label" for="ni-number">
+          Password
+        </label>
+        <input class="form-control" id="ni-number" type="text" name="ni-number">
+
+
+<br>
+
+
+<br>
+<div class="form-group">
+    <a href="email-sent.html"><input class="button" type="submit" value="Continue"></a>
+</div>
+<a href="#">Don’t have a Government Gateway account</a>
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
