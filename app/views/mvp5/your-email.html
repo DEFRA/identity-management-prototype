@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+    
+
+        <br></br>
+
+      <h1 class="heading-large">Your email
+      </h1>
+
+
+
+
+
+        <label class="form-label" for="ni-number">
+          Email address
+          <span class="form-hint">
+            You'll use this to sign in, in the future.
+          </span>
+        </label>
+        <input class="form-control" id="ni-number" type="text" name="ni-number">
+
+
+
+<br>
+
+
+<br>
+<div class="form-group">
+    <a href="email-sent.html"><input class="button" type="submit" value="Continue"></a>
+</div>
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
