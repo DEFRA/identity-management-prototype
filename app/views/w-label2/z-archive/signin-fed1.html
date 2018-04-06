@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+
+<a class="link-back" href="start.html">Back</a>
+
+
+<h1 class="heading-large">Sign in or create an account
+</h1>
+
+
+
+Use one of the following<br></br>
+    <form>
+        <div class="form-group">
+          <fieldset>
+<div class="multiple-choice">
+<input id="radio-3" type="radio" name="radio-group" value="I am a British citizen living abroad">
+<label for="radio-3">Your Defra account to sign in</label><br></br><span class="form-hint"></span>
+</div>
+
+<div class="multiple-choice">
+<input id="radio-2" type="radio" name="radio-group" value="Isle of Man or the Channel Islands">
+<label for="radio-2">Your Government Gateway account</label><br></br><span class="form-hint">&nbsp;&nbsp;&nbsp;&nbsp;You’ll have a Government Gateway user ID if you’ve registered for &nbsp;&nbsp;&nbsp;&nbsp;Self Assessment or filed a tax return online before.</span>
+</div>
+<br></br><br>
+<div class="multiple-choice">
+<input id="radio-1" type="radio" name="radio-group" value="Northern Ireland">
+<label for="radio-1">Your Google account</label><br></br><span class="form-hint"></span>
+</div>
+ <p class="form-block">or</p>
+<br></br>
+<div class="multiple-choice"><input id="radio-3" type="radio" name="radio-group" value="I am a British citizen living abroad">
+<label for="radio-3">Create a Defra account</label>
+</div>
+</fieldset>
+</div>
+</form>
+
+
+
+<div class="form-group">
+<a href="your-email.html"><input class="button" type="submit" value="Continue"></a>
+</div>
+
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
