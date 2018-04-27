@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+<a class="link-back" href="your-details.html">Back</a>
+
+
+  <br/>
+      <h1 class="heading-large">Your role
+      </h1>
+
+      <form class="form" action="/url/of/next/page" method="post">
+
+        <p>Are you an Agent who acts on behalf of your clients?</p>
+
+
+        <form>
+          <div class="form-group">
+            <fieldset>
+              <div class="multiple-choice">
+                <input id="radio-1" type="radio" name="radio-group" value="No">
+                <label for="radio-1">No</label>
+              </div>
+              <div class="multiple-choice">
+                <input id="radio-2" type="radio" name="radio-group" value="Yes">
+                <label for="radio-2">Yes</label>
+
+            </fieldset>
+          </div>
+        </form>
+
+
+        <div class="form-group">
+          <a href="termandconditions.html"><input class="button" type="submit" value="Continue"></a>
+        </div>
+
+      </form>
+Not sure, <a href="v-organisation">contact customer services.</a></p>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
